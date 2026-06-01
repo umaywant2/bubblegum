@@ -1,1 +1,125 @@
+{
+  "module": {
+    "name": "Project Bubble Gum",
+    "version": "1.0.0",
+    "category": "transport-foundations",
+    "summary": "Foundational research module for non-classical transport, continuity-preserving transfer pathways, resonance-aligned channels, and early transporter-class technologies.",
+    "purpose": "Provide the structural, conceptual, and computational substrate for open research into continuity-preserving transport systems. Defines transport operators, multi-regime pipelines, resonance-bridge models, and RTT-aligned safety frameworks."
+  },
 
+  "files": [
+    {
+      "path": "overview/mission.md",
+      "role": "profile",
+      "analyzer_layer": "operator",
+      "description": "Defines the mission, scope, and long-arc intent of Project Bubble Gum."
+    },
+    {
+      "path": "overview/roadmap.md",
+      "role": "profile",
+      "analyzer_layer": "regime",
+      "description": "Outlines the multi-phase roadmap for transporter-class research and development."
+    },
+    {
+      "path": "overview/use-of-rtt.md",
+      "role": "profile",
+      "analyzer_layer": "cross-cutting",
+      "description": "Explains how RTT/1, RTT/2, and RTT/3 power the structural clarity and coherence of transport research."
+    },
+
+    {
+      "path": "specs/module.json",
+      "role": "signature",
+      "analyzer_layer": "operator",
+      "description": "Canonical manifest describing the identity, structure, and purpose of the Bubble Gum module."
+    },
+    {
+      "path": "specs/operators.md",
+      "role": "engine",
+      "analyzer_layer": "operator",
+      "description": "Defines the T-operator grammar for transport: mapping, encoding, bridging, transfer, reforming, and verification."
+    },
+    {
+      "path": "specs/session-context.md",
+      "role": "engine",
+      "analyzer_layer": "coherence",
+      "description": "Provides the session context block for structural AIs working within the Bubble Gum project."
+    },
+
+    {
+      "path": "research/papers.md",
+      "role": "reference",
+      "analyzer_layer": "cross-cutting",
+      "description": "Index of foundational papers, models, and open research questions for transport."
+    },
+    {
+      "path": "research/simulations.md",
+      "role": "engine",
+      "analyzer_layer": "dimensional",
+      "description": "Simulation engines and datasets for continuity-preserving transport and resonance-aligned transfer pathways."
+    },
+    {
+      "path": "research/open-questions.md",
+      "role": "map",
+      "analyzer_layer": "regime",
+      "description": "Structured list of unresolved scientific questions guiding long-arc transport research."
+    },
+
+    {
+      "path": "students/getting-started.md",
+      "role": "example",
+      "analyzer_layer": "operator",
+      "description": "Student onboarding guide for contributing to Project Bubble Gum."
+    },
+    {
+      "path": "students/tasks.md",
+      "role": "example",
+      "analyzer_layer": "regime",
+      "description": "Structured list of student-friendly research tasks and contribution pathways."
+    },
+    {
+      "path": "students/contribute.md",
+      "role": "template",
+      "analyzer_layer": "cross-cutting",
+      "description": "Contribution guidelines for students, researchers, and structural AIs."
+    },
+
+    {
+      "path": "ai/prompts.md",
+      "role": "engine",
+      "analyzer_layer": "operator",
+      "description": "RTT-aligned prompt structures for structural AIs assisting with transport research."
+    },
+    {
+      "path": "ai/agents.md",
+      "role": "engine",
+      "analyzer_layer": "coherence",
+      "description": "Definitions and behaviors of AI agents supporting the Bubble Gum project."
+    },
+    {
+      "path": "ai/rtt-integration.md",
+      "role": "reference",
+      "analyzer_layer": "cross-cutting",
+      "description": "Technical notes on integrating RTT engines into transport simulations and research workflows."
+    }
+  ],
+
+  "exports": [
+    "overview/mission.md",
+    "overview/roadmap.md",
+    "specs/operators.md",
+    "research/simulations.md"
+  ],
+
+  "imports": [
+    {
+      "module": "RTT",
+      "version": "3.x",
+      "paths": [
+        "operators/",
+        "engines/",
+        "coherence/"
+      ]
+    }
+  ]
+}
